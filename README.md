@@ -17,7 +17,7 @@ A template which creates a project with a gulp build pipeline with automatic dis
  for **unit testing**
 
  #concat
-  for css & js **concatination**
+  for **concatination** of distribution css & js
 
  #uglify
- for css & js **minification**
+ for **minification** of distribution css & js
