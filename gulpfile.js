@@ -5,7 +5,7 @@ var browserSync = require('browser-sync').create();
 var eslint = require ('gulp-eslint');
 var jasmine = require('gulp-jasmine-phantom');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
+var uglify = require('gulp-uglify');	
 
 
 gulp.task('default', ['styles'], ['lint'], function() {
@@ -17,6 +17,13 @@ gulp.task('default', ['styles'], ['lint'], function() {
 		server: './dist'
 	});
 });
+
+gulp.task('dist', [
+	'copy-html',
+	'copy-images',
+	'styles',
+	'lint',
+	'scripts-dist']);
 
 gulp.task('lint', () => {
 	// ESLint ignores files with "node_modules" paths. 
