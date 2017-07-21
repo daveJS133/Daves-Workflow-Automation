@@ -1,23 +1,23 @@
-## gulp live editing workflow
+# Gulp live editing workflow
 A template which creates a project with a gulp build pipeline with automatic distribution file updating for continuous integration. Uses &amp; requires through dev dependencies:
 
-# sass
+## Sass
   for **css pre-processing**, 
 
-# autoprefixer
+## Autoprefixer
  to automate **cross-browser prefixing**, 
 
-# browser-sync & Phantom headless browser
+## Browser-sync & Phantom headless browser
    for **live editing** of your code.
 
-# eslint
+## Eslint
   for linting JS/ECMA
 
-# Jasmine
+## Jasmine
  for **unit testing**
 
- # concat
+ ## Concat
   for **concatination** of distribution css & js
 
- # uglify
+ ## Uglify
  for **minification** of distribution css & js
